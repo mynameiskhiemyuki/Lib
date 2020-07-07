@@ -1,0 +1,49 @@
+﻿@model Library_managements.Models.DocGia
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="main-content">
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+                <h1>Details</h1>
+
+                <div>
+                    <h4>DocGia</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.tenDocGia)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.tenDocGia)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.ngaySinh)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.ngaySinh)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.diaChi)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.diaChi)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.dienThoai)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.dienThoai)
+                        </dd>
+                    </dl>
+                </div>
+                <div>
+                    <a asp-action="Edit" asp-route-id="@Model.maDocGia">Edit</a> |
+                    <a asp-action="Index">Back to List</a>
+                </div>
+</div>
+</div>
+</div>

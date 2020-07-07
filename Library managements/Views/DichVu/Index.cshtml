@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+
+
+            <div class="row">
+
+
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">Borrow Book</div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="text-center title-2">Borrow</h3>
+                            </div>
+                            <hr>
+                            @using (Html.BeginForm("Save", "DichVu", FormMethod.Post))
+                            {
+
+                                <div class="form-group">
+                                    <label for="readerId" class="control-label mb-1">Mã độc giả</label>
+                                    <input id="readerId" name="readerId" type="text" class="form-control" placeholder="Mã độc giả" required>
+                                </div>
+                                <div class="form-group has-success">
+                                    <label for="readerName" class="control-label mb-1">Tên độc giả</label>
+                                    <input id="readerName" name="readerName" type="text" class="form-control" placeholder="Tên độc giả" required>
+                                    <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bookId" class="control-label mb-1">Tên sách</label>
+                                    <input id="bookId" name="bookId" type="tel" class="form-control" value="">
+                                    <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bdate" class="control-label mb-1">Ngày mượn</label>
+                                    <input type="date" id="bdate" name="bookId" class="form-control" value="">
+                                    <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="rdate" class="control-label mb-1">Ngày trả</label>
+                                    <input type="date" id="rdate" name="bookId" class="form-control" value="">
+                                    <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+
+                                    <input type="submit" id="rdate" class="btn btn-success" value="Save">
+
+                                </div>
+
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section scripts{
+
+    <script>
+        function getReaderId() {
+
+            $('#readerId').keyup(function () {
+                var txt = $(this).val();
+                if ((txt) != '') {
+                    $.ajax({
+                        url: '/DichVu/getReaderId?rId= + $(#readerId).val()',
+                        method: 'post',
+                        dataType: 'JSON',
+                        success: function (data) {
+                            $('#readerName').val(data);
+
+                        }
+                    });
+                } else {
+                    $('#readerName').val('');
+
+                }
+            });
+        }
+    </script>
+}

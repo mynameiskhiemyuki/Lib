@@ -1,0 +1,56 @@
+﻿@model Library_managements.Models.DocGia
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            
+            <h1>Create</h1>
+
+            <h4>DocGia</h4>
+            <hr />
+            <div class="row">
+                <div class="col-md-4">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="tenDocGia" class="control-label"></label>
+                            <input asp-for="tenDocGia" class="form-control" />
+                            <span asp-validation-for="tenDocGia" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ngaySinh" class="control-label"></label>
+                            <input asp-for="ngaySinh" class="form-control" />
+                            <span asp-validation-for="ngaySinh" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="diaChi" class="control-label"></label>
+                            <input asp-for="diaChi" class="form-control" />
+                            <span asp-validation-for="diaChi" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="dienThoai" class="control-label"></label>
+                            <input asp-for="dienThoai" class="form-control" />
+                            <span asp-validation-for="dienThoai" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+</div>
+        </div>
+    </div>
+            @section Scripts {
+                @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+            }

@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Library_managements-5BB14BBC-8AFB-456A-8CDE-5E293D858477</UserSecretsId>
+    <RootNamespace>Library_managements</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\00000000000000_CreateIdentitySchema.cs" />
+    <Compile Remove="Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200706055831_Add DocGia Model.cs" />
+    <Compile Remove="Data\Migrations\20200706055831_Add DocGia Model.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200706124418_Add LichSuMuon Model.cs" />
+    <Compile Remove="Data\Migrations\20200706124418_Add LichSuMuon Model.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200706131622_ZedDBA.cs" />
+    <Compile Remove="Data\Migrations\20200706131622_ZedDBA.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200706131928_CreateInitial.cs" />
+    <Compile Remove="Data\Migrations\20200706131928_CreateInitial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200707073819_InitialCreate.cs" />
+    <Compile Remove="Data\Migrations\20200707073819_InitialCreate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200707073940_InitialCreate.cs" />
+    <Compile Remove="Data\Migrations\20200707073940_InitialCreate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200707074114_InitialCreate.cs" />
+    <Compile Remove="Data\Migrations\20200707074114_InitialCreate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200707080025_InititalCreate.cs" />
+    <Compile Remove="Data\Migrations\20200707080025_InititalCreate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200707080132_InititalCreate.cs" />
+    <Compile Remove="Data\Migrations\20200707080132_InititalCreate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200707084554_InitialCreate.cs" />
+    <Compile Remove="Data\Migrations\20200707084554_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200707112229_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200707112229_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200707112413_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200707112413_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+    <Folder Include="wwwroot\images\cover\" />
+  </ItemGroup>
+
+</Project>
