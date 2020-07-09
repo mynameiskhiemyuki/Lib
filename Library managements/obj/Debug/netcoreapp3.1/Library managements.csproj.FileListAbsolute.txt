@@ -193,3 +193,198 @@ C:\Users\mynam\source\repos\Library managements\Library managements\obj\Debug\ne
 C:\Users\mynam\source\repos\Library managements\Library managements\obj\Debug\netcoreapp3.1\Library managements.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mynam\source\repos\Library managements\Library managements\obj\Debug\netcoreapp3.1\Library managements.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mynam\source\repos\Library managements\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DichVu\Return.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\appsettings.json
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.StaticWebAssets.xml
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.exe
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.deps.json
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.runtimeconfig.json
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.runtimeconfig.dev.json
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.pdb
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.Views.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Library managements.Views.pdb
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.csprojAssemblyReference.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.csproj.CoreCompileInputs.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.MvcApplicationPartsAssemblyInfo.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.MvcApplicationPartsAssemblyInfo.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.RazorAssemblyInfo.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.RazorAssemblyInfo.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.AssemblyInfoInputs.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.AssemblyInfo.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.TagHelpers.input.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.TagHelpers.output.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.RazorCoreGenerate.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DichVu\Borrow.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DichVu\BorrowDetail.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DichVu\Index.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DichVu\Return.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DocGias\Create.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DocGias\Delete.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DocGias\Details.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DocGias\Edit.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\DocGias\Index.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Saches\Create.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Saches\Delete.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Saches\Details.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Saches\Edit.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Saches\Index.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.RazorTargetAssemblyInfo.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.RazorTargetAssemblyInfo.cs
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.Views.pdb
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.csproj.CopyComplete
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\staticwebassets\Library managements.StaticWebAssets.Manifest.cache
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\staticwebassets\Library managements.StaticWebAssets.xml
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.dll
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.pdb
+D:\HT 100GB\HK6\Framework\Lib\Library managements\obj\Debug\netcoreapp3.1\Library managements.genruntimeconfig.cache

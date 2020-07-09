@@ -10,51 +10,54 @@
     <div class="main-content">
         <div class="section__content section__content--p30">
             <div class="container-fluid">
-                <h1>Create</h1>
 
-                <h4>Sach</h4>
-                <hr />
-                <div class="row">
-                    <div class="col-md-4">
-                        <form asp-action="Create">
-                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                            <div class="form-group">
-                                <label asp-for="tenSach" class="control-label">Tên Sách</label>
-                                <input asp-for="tenSach" class="form-control" />
-                                <span asp-validation-for="tenSach" class="text-danger"></span>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header">Create</div>
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="text-center title-2">Book</h3>
+                                </div>
+                                <hr />
+                                @using (Html.BeginForm("Save", "DichVu", FormMethod.Post))
+                                {
+                                    <div class="form-group">
+                                        <label asp-for="tenSach" class="control-label">Tên Sách</label>
+                                        <input asp-for="tenSach" class="form-control" />
+<!--                                     <span asp-validation-for="tenSach" class="text-danger"></span>-->
+                                        <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="tacGia" class="control-label">Tác giả</label>
+                                        <input asp-for="tacGia" class="form-control" />
+                                        <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="tomTat" class="control-label"></label>
+                                        <input asp-for="tomTat" class="form-control" />
+                                        <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="tinhTrang" class="control-label">Tình Trạng</label>
+                                        <input asp-for="tinhTrang" class="form-control" />
+                                        <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" value="Create" class="btn btn-primary" />
+                                    </div>}
                             </div>
-                            <div class="form-group">
-                                <label asp-for="tacGia" class="control-label">Tác giả</label>
-                                <input asp-for="tacGia" class="form-control" />
-                                <span asp-validation-for="tacGia" class="text-danger"></span>
                             </div>
-                            <div class="form-group">
-                                <label asp-for="tomTat" class="control-label"></label>
-                                <input asp-for="tomTat" class="form-control" />
-                                <span asp-validation-for="tomTat" class="text-danger"></span>
-                            </div> 
-                            <div class="form-group">
-                                <label asp-for="tinhTrang" class="control-label">Tình Trạng</label>
-                                <input asp-for="tinhTrang" class="form-control" />
-                                <span asp-validation-for="tinhTrang" class="text-danger"></span>
+                        </div>
+                                <div>
+                                    <a asp-action="Index">Back to List</a>
+                                </div>
+
                             </div>
-                            <div class="form-group">
-                                <input type="submit" value="Create" class="btn btn-primary" />
-                            </div>
-                        </form>
+                        </div>
                     </div>
-                </div>
-
-                <div>
-                    <a asp-action="Index">Back to List</a>
-                </div>
-
-            </div>
-        </div>
-    </div>
 
 
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+                    @section Scripts {
+                        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+                    }
