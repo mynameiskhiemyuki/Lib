@@ -18,8 +18,7 @@
                         <th>Author</th>
                         <th>Description</th>
                         <th>Status</th>
-                        <th>Edit</th>
-                        <th>Delete</th>
+                        <th>Option</th>
                     </tr>
                 </thead>
             </table>
@@ -30,7 +29,7 @@
 
 
 @section scripts{
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
@@ -57,9 +56,9 @@
                 },
                 "columnDefs":
                 [{
-                    "targets": [0],
-                    "visible": false,
-                    "searchable": false
+                    "targets": [3],
+                    "visible": true,
+                    "searchable": true
                 }],
                 "columns": [
                     { "data": "maSach", "name": "maSach", "autoWidth": true },
@@ -71,48 +70,12 @@
                         "render": function (data, type, full, meta)
                         { return '<a class="btn btn-info" href="/DichVu/BorrowDetail/' + full.maSach + '">Mượn</a>'; }
                     },
-                    {
-                        data: null, render: function (data, type, row)
-                        {
-                            return "<a href='#' class='btn btn-danger' onclick=DeleteData('" + row.maSach + "'); >Delete</a>";
-                        }
-                    },
+                   
                 ]
 
             });
         });
 
-
-    function DeleteData(maSach)
-        {
-            if (confirm("Are you sure you want to delete ...?"))
-            {
-                Delete(maSach);
-            }
-            else
-            {
-                return false;
-            }
-        }
-
-
-        function Delete(CustomerID)
-    {
-        var url = '@Url.Content("~/")' + "DichVu/Delete";
-
-        $.post(url, { ID: CustomerID }, function (data)
-                {
-                    if (data)
-                    {
-                        oTable = $('#example').DataTable();
-                        oTable.draw();
-                    }
-                    else
-                    {
-                        alert("Something Went Wrong!");
-                    }
-                });
-    }
 
     </script>
 }

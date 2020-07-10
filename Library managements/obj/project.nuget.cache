@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s616z/N1OnolWvqreLxP8NjxPJX0qI20NgY73wTdA1gx0G5lyrokk3h5ACcJyZYW64lb1xIh4byn1jPBSZ/Svg==",
+  "dgSpecHash": "pJOZvpDFRNNeJknbuatSlFTG4Hm8XYIcf7+KmXOdYqwhD8FoDkMkMV53Qfub4G4k0ZBtn+7BteXbXMbeHfGMsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\Library managements.csproj",
+  "projectFilePath": "C:\\Users\\mynam\\source\\repos\\Library\\Lib\\Library managements\\Library managements.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mynam\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "C:\\Users\\mynam\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",

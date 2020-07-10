@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Library_managements.Data;
 using Library_managements.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using SQLitePCL;
@@ -22,6 +23,11 @@ namespace Library_managements.Controllers
         }
 
         public IActionResult Borrow()
+        {
+            return View();
+        }
+
+        public IActionResult ReturnDetail()
         {
             return View();
         }
@@ -68,17 +74,13 @@ namespace Library_managements.Controllers
                 _context.SaveChanges();
                 _context.Sach.Update(book);
                 _context.SaveChanges();
-                return RedirectToAction(nameof(Borrow));
+                return RedirectToAction(nameof(Return));
 
             }
             return View(lichSu);
 
         }
-        private bool SachExists(int id)
-        {
-            return _context.Sach.Any(e => e.maSach == id);
-        }
-
+ 
         public IActionResult LoadData()
         {
             try
@@ -90,8 +92,7 @@ namespace Library_managements.Controllers
                 var length = Request.Form["length"].FirstOrDefault();
                 // Sort Column Name
                 var sortColumn = Request.Form["columns[" + Request.Form["order[0][column]"].FirstOrDefault() + "][name]"].FirstOrDefault();
-                // Sort Column Direction ( asc ,desc)
-                var sortColumnDirection = Request.Form["order[0][dir]"].FirstOrDefault();
+               
                 // Search Value from (Search box)
                 var searchValue = Request.Form["search[value]"].FirstOrDefault();
 
@@ -138,8 +139,7 @@ namespace Library_managements.Controllers
                 var length = Request.Form["length"].FirstOrDefault();
                 // Sort Column Name
                 var sortColumn = Request.Form["columns[" + Request.Form["order[0][column]"].FirstOrDefault() + "][name]"].FirstOrDefault();
-                // Sort Column Direction ( asc ,desc)
-                var sortColumnDirection = Request.Form["order[0][dir]"].FirstOrDefault();
+              
                 // Search Value from (Search box)
                 var searchValue = Request.Form["search[value]"].FirstOrDefault();
 
@@ -155,14 +155,70 @@ namespace Library_managements.Controllers
                 var bookData = from tempBook in _context.Sach
                                join bTemp in _context.LichSuMuon on tempBook.maSach equals bTemp.maSach
                                join rTemp in _context.DocGia on bTemp.maDocGia equals rTemp.maDocGia
-                          
-                               select new { maPhieuMuon = bTemp.maPhieuMuon, tenSach = tempBook.tenSach,ngayMuon = bTemp.ngayMuon, tenDocGia = rTemp.tenDocGia };
+                               where !_context.PhieuTra.Any(h => h.maPhieuMuon == bTemp.maPhieuMuon)
+                               select new { maPhieuMuon = bTemp.maPhieuMuon, tenSach = tempBook.tenSach, ngayMuon = bTemp.ngayMuon, tenDocGia = rTemp.tenDocGia, maDocGia = bTemp.maDocGia };
+
 
 
                 //Search
                 if (!string.IsNullOrEmpty(searchValue))
                 {
-                    bookData = bookData.Where(m => m.tenSach == searchValue || m.tenDocGia == searchValue || m.maPhieuMuon.ToString() == searchValue);
+                    bookData = bookData.Where( m => m.tenSach == searchValue || m.tenDocGia == searchValue || m.maDocGia.ToString() == searchValue);
+                }
+
+                //total number of rows count 
+                recordsTotal = bookData.Count();
+                //Paging 
+                var data = bookData.Skip(skip).Take(pageSize).ToList();
+                //Returning Json Data
+                return Json(new { draw = draw, recordsFiltered = recordsTotal, recordsTotal = recordsTotal, data = data });
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+        }
+
+
+        public IActionResult LoadReturnDetail()
+        {
+            try
+            {
+                var draw = HttpContext.Request.Form["draw"].FirstOrDefault();
+                // Skiping number of Rows count
+                var start = Request.Form["start"].FirstOrDefault();
+                // Paging Length 10,20
+                var length = Request.Form["length"].FirstOrDefault();
+                // Sort Column Name
+                var sortColumn = Request.Form["columns[" + Request.Form["order[0][column]"].FirstOrDefault() + "][name]"].FirstOrDefault();
+
+                // Search Value from (Search box)
+                var searchValue = Request.Form["search[value]"].FirstOrDefault();
+
+                //Paging Size (10,20,50,100)
+                int pageSize = length != null ? Convert.ToInt32(length) : 0;
+                int skip = start != null ? Convert.ToInt32(start) : 0;
+                int recordsTotal = 0;
+
+
+
+
+                // Getting all book data
+                var bookData = from tempBook in _context.Sach
+                               join bTemp in _context.LichSuMuon on tempBook.maSach equals bTemp.maSach
+                               join rTemp in _context.DocGia on bTemp.maDocGia equals rTemp.maDocGia
+                               join pTemp in _context.PhieuTra on bTemp.maPhieuMuon equals pTemp.maPhieuMuon
+                               where _context.PhieuTra.Any(h => h.maPhieuMuon == bTemp.maPhieuMuon)
+                               select new { maPhieuMuon = bTemp.maPhieuMuon, tenSach = tempBook.tenSach, ngayMuon = pTemp.ngayMuon, tenDocGia = rTemp.tenDocGia, maDocGia = bTemp.maDocGia };
+
+
+
+                //Search
+                if (!string.IsNullOrEmpty(searchValue))
+                {
+                    bookData = bookData.Where(m => m.tenSach == searchValue || m.tenDocGia == searchValue || m.maDocGia.ToString() == searchValue);
                 }
 
                 //total number of rows count 

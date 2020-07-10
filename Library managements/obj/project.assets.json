@@ -8962,11 +8962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\Library managements.csproj",
+      "projectUniqueName": "C:\\Users\\mynam\\source\\repos\\Library\\Lib\\Library managements\\Library managements.csproj",
       "projectName": "Library managements",
-      "projectPath": "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\Library managements.csproj",
+      "projectPath": "C:\\Users\\mynam\\source\\repos\\Library\\Lib\\Library managements\\Library managements.csproj",
       "packagesPath": "C:\\Users\\mynam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\obj\\",
+      "outputPath": "C:\\Users\\mynam\\source\\repos\\Library\\Lib\\Library managements\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mynam\\AppData\\Roaming\\NuGet\\NuGet.Config",
