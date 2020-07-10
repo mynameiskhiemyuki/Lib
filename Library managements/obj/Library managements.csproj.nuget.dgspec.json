@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HT 100GB\\HK6\\Framework\\Lib\\Library managements\\Library managements.csproj": {}
+    "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\Library managements.csproj": {}
   },
   "projects": {
-    "D:\\HT 100GB\\HK6\\Framework\\Lib\\Library managements\\Library managements.csproj": {
+    "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\Library managements.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HT 100GB\\HK6\\Framework\\Lib\\Library managements\\Library managements.csproj",
+        "projectUniqueName": "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\Library managements.csproj",
         "projectName": "Library managements",
-        "projectPath": "D:\\HT 100GB\\HK6\\Framework\\Lib\\Library managements\\Library managements.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "D:\\HT 100GB\\HK6\\Framework\\Lib\\Library managements\\obj\\",
+        "projectPath": "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\Library managements.csproj",
+        "packagesPath": "C:\\Users\\mynam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mynam\\source\\repos\\Library managements\\Library managements\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mynam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

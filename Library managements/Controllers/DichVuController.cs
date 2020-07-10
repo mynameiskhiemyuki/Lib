@@ -155,7 +155,7 @@ namespace Library_managements.Controllers
                 var bookData = from tempBook in _context.Sach
                                join bTemp in _context.LichSuMuon on tempBook.maSach equals bTemp.maSach
                                join rTemp in _context.DocGia on bTemp.maDocGia equals rTemp.maDocGia
-                               where tempBook.tinhTrang.Equals("unvailable")
+                          
                                select new { maPhieuMuon = bTemp.maPhieuMuon, tenSach = tempBook.tenSach,ngayMuon = bTemp.ngayMuon, tenDocGia = rTemp.tenDocGia };
 
 

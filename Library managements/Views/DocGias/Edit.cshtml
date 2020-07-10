@@ -9,48 +9,46 @@
     <div class="main-content">
         <div class="section__content section__content--p30">
             <div class="container-fluid">
-                <div class="col-lg-6">
-                    <div class="card">
-                        <div class="card-header">Edit</div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h3 class="text-center title-2">DocGia</h3>
-                            </div>
-                            <hr />
-                            @using (Html.BeginForm("Save", "DocGias", FormMethod.Post))
-                            {
-                                <input type="hidden" asp-for="maDocGia" />
-                                <div class="form-group">
-                                    <label asp-for="tenDocGia" class="control-label"></label>
-                                    <input asp-for="tenDocGia" class="form-control" />
-                                    <span asp-validation-for="tenDocGia" class="text-danger"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="ngaySinh" class="control-label"></label>
-                                    <input asp-for="ngaySinh" class="form-control" />
-                                    <span asp-validation-for="ngaySinh" class="text-danger"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="diaChi" class="control-label"></label>
-                                    <input asp-for="diaChi" class="form-control" />
-                                    <span asp-validation-for="diaChi" class="text-danger"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="dienThoai" class="control-label"></label>
-                                    <input asp-for="dienThoai" class="form-control" />
-                                    <span asp-validation-for="dienThoai" class="text-danger"></span>
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Save" class="btn btn-primary" />
-                                </div>}
-                                </div>
-                            </div>
-                        </div>
+                <h1>Edit</h1>
 
-                        <div>
-                            <a asp-action="Index">Back to List</a>
-                        </div>
+                <h4>DocGia</h4>
+                <hr />
+                <div class="row">
+                    <div class="col-md-4">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="maDocGia" />
+                            <div class="form-group">
+                                <label asp-for="tenDocGia" class="control-label"></label>
+                                <input asp-for="tenDocGia" class="form-control" />
+                                <span asp-validation-for="tenDocGia" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ngaySinh" class="control-label"></label>
+                                <input asp-for="ngaySinh" class="form-control" />
+                                <span asp-validation-for="ngaySinh" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="diaChi" class="control-label"></label>
+                                <input asp-for="diaChi" class="form-control" />
+                                <span asp-validation-for="diaChi" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="dienThoai" class="control-label"></label>
+                                <input asp-for="dienThoai" class="form-control" />
+                                <span asp-validation-for="dienThoai" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary" />
+                            </div>
+                        </form>
                     </div>
+                </div>
+
+                <div>
+                    <a asp-action="Index">Back to List</a>
+                </div>
+    </div>
             </div>
         </div>
                 @section Scripts {
